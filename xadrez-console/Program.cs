@@ -14,6 +14,8 @@ namespace xadrez_console
             Console.WriteLine("Posição: " + P);
 
             Console.ReadLine();
+
+            Tabuleiro tab = new Tabuleiro(8, 8);
         }
     }
 }
